@@ -1,4 +1,4 @@
-### [Baseline Model](https://github.com/chinmay-singh/Propaganda/blob/master)
+# [Baseline Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/baseline_model)
 
 Model Architecture
 
