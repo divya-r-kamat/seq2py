@@ -185,70 +185,68 @@ Batch Size | 28 |
 Learning Rate | 0.0003|
 Device | Cuda |
 Loss Function | Cross Entropy Loss |
-Test Loss | 1.390
+Test Loss | 1.443
 
 
 Training Log
 
-    Epoch: 01 | Time: 0m 26s
-        Train Loss: 3.672 | Train PPL:  39.313
-         Val. Loss: 2.625 |  Val. PPL:  13.799
+    Epoch: 01 | Time: 0m 28s
+        Train Loss: 4.127 | Train PPL:  61.991
+         Val. Loss: 2.814 |  Val. PPL:  16.673
     Epoch: 02 | Time: 0m 27s
-        Train Loss: 2.449 | Train PPL:  11.581
-         Val. Loss: 2.229 |  Val. PPL:   9.291
+        Train Loss: 2.646 | Train PPL:  14.103
+         Val. Loss: 2.372 |  Val. PPL:  10.714
     Epoch: 03 | Time: 0m 27s
-        Train Loss: 2.083 | Train PPL:   8.032
-         Val. Loss: 2.007 |  Val. PPL:   7.439
+        Train Loss: 2.253 | Train PPL:   9.516
+         Val. Loss: 2.135 |  Val. PPL:   8.454
     Epoch: 04 | Time: 0m 27s
-        Train Loss: 1.825 | Train PPL:   6.205
-         Val. Loss: 1.851 |  Val. PPL:   6.367
-    Epoch: 05 | Time: 0m 26s
-        Train Loss: 1.616 | Train PPL:   5.031
-         Val. Loss: 1.738 |  Val. PPL:   5.685
-    Epoch: 06 | Time: 0m 27s
-        Train Loss: 1.439 | Train PPL:   4.218
-         Val. Loss: 1.658 |  Val. PPL:   5.247
-    Epoch: 07 | Time: 0m 26s
-        Train Loss: 1.289 | Train PPL:   3.628
-         Val. Loss: 1.564 |  Val. PPL:   4.778
+        Train Loss: 1.988 | Train PPL:   7.303
+         Val. Loss: 1.952 |  Val. PPL:   7.046
+    Epoch: 05 | Time: 0m 27s
+        Train Loss: 1.776 | Train PPL:   5.909
+         Val. Loss: 1.836 |  Val. PPL:   6.271
+    Epoch: 06 | Time: 0m 28s
+        Train Loss: 1.575 | Train PPL:   4.830
+         Val. Loss: 1.706 |  Val. PPL:   5.505
+    Epoch: 07 | Time: 0m 28s
+        Train Loss: 1.402 | Train PPL:   4.065
+         Val. Loss: 1.606 |  Val. PPL:   4.984
     Epoch: 08 | Time: 0m 27s
-        Train Loss: 1.165 | Train PPL:   3.207
-         Val. Loss: 1.515 |  Val. PPL:   4.550
-    Epoch: 09 | Time: 0m 26s
-        Train Loss: 1.060 | Train PPL:   2.886
-         Val. Loss: 1.464 |  Val. PPL:   4.324
-    Epoch: 10 | Time: 0m 26s
-        Train Loss: 0.967 | Train PPL:   2.631
-         Val. Loss: 1.449 |  Val. PPL:   4.259
+        Train Loss: 1.259 | Train PPL:   3.520
+         Val. Loss: 1.525 |  Val. PPL:   4.596
+    Epoch: 09 | Time: 0m 28s
+        Train Loss: 1.135 | Train PPL:   3.111
+         Val. Loss: 1.457 |  Val. PPL:   4.294
+    Epoch: 10 | Time: 0m 27s
+        Train Loss: 1.021 | Train PPL:   2.777
+         Val. Loss: 1.409 |  Val. PPL:   4.090
     Epoch: 11 | Time: 0m 27s
-        Train Loss: 0.861 | Train PPL:   2.365
-         Val. Loss: 1.366 |  Val. PPL:   3.918
-    Epoch: 12 | Time: 0m 27s
-        Train Loss: 0.774 | Train PPL:   2.168
-         Val. Loss: 1.328 |  Val. PPL:   3.775
+        Train Loss: 0.922 | Train PPL:   2.515
+         Val. Loss: 1.358 |  Val. PPL:   3.889
+    Epoch: 12 | Time: 0m 28s
+        Train Loss: 0.836 | Train PPL:   2.306
+         Val. Loss: 1.318 |  Val. PPL:   3.735
     Epoch: 13 | Time: 0m 27s
-        Train Loss: 0.705 | Train PPL:   2.024
-         Val. Loss: 1.333 |  Val. PPL:   3.792
+        Train Loss: 0.759 | Train PPL:   2.136
+         Val. Loss: 1.289 |  Val. PPL:   3.630
     Epoch: 14 | Time: 0m 27s
-        Train Loss: 0.648 | Train PPL:   1.911
-         Val. Loss: 1.317 |  Val. PPL:   3.734
-    Epoch: 15 | Time: 0m 27s
-        Train Loss: 0.596 | Train PPL:   1.814
-         Val. Loss: 1.298 |  Val. PPL:   3.664
-    Epoch: 16 | Time: 0m 26s
-        Train Loss: 0.545 | Train PPL:   1.725
-         Val. Loss: 1.290 |  Val. PPL:   3.633
-    Epoch: 17 | Time: 0m 27s
-        Train Loss: 0.505 | Train PPL:   1.657
-         Val. Loss: 1.317 |  Val. PPL:   3.733
-    Epoch: 18 | Time: 0m 27s
-        Train Loss: 0.467 | Train PPL:   1.596
-         Val. Loss: 1.296 |  Val. PPL:   3.653
+        Train Loss: 0.692 | Train PPL:   1.997
+         Val. Loss: 1.283 |  Val. PPL:   3.609
+    Epoch: 15 | Time: 0m 28s
+        Train Loss: 0.637 | Train PPL:   1.890
+         Val. Loss: 1.265 |  Val. PPL:   3.545
+    Epoch: 16 | Time: 0m 28s
+        Train Loss: 0.583 | Train PPL:   1.791
+         Val. Loss: 1.247 |  Val. PPL:   3.480
+    Epoch: 17 | Time: 0m 28s
+        Train Loss: 0.536 | Train PPL:   1.709
+         Val. Loss: 1.241 |  Val. PPL:   3.458
+    Epoch: 18 | Time: 0m 28s
+        Train Loss: 0.497 | Train PPL:   1.644
+         Val. Loss: 1.240 |  Val. PPL:   3.455
     Epoch: 19 | Time: 0m 27s
-        Train Loss: 0.436 | Train PPL:   1.547
-         Val. Loss: 1.305 |  Val. PPL:   3.688
-    Epoch: 20 | Time: 0m 26s
-        Train Loss: 0.403 | Train PPL:   1.496
-         Val. Loss: 1.323 |  Val. PPL:   3.755
-         
- ## Highly overfit model
+        Train Loss: 0.460 | Train PPL:   1.584
+         Val. Loss: 1.246 |  Val. PPL:   3.477
+    Epoch: 20 | Time: 0m 27s
+        Train Loss: 0.431 | Train PPL:   1.539
+         Val. Loss: 1.238 |  Val. PPL:   3.450         
