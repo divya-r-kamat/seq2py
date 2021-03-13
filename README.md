@@ -1,4 +1,5 @@
-# seq2py - A transformer based model to translate English text to Python code (with proper whitespace indentations)
+# seq2py 
+  - A transformer based model to translate English text to Python code (with proper whitespace indentations)
 
 
 ## Data Collection
