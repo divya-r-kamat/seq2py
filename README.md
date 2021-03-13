@@ -33,7 +33,7 @@ Experiment | Batch Size | Epoch | Learning Rate | Test Loss |
 [Baseline Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/baseline_model)| 16 | 10 | 0.0005| 1.724 |
 [Transformer Based Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding)| 28 |20 |0.0003 | 1.438 |
 [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_custom_pretrained_embeddings)| 28 | 20 |0.0003 | 1.486|
-[Trasnaformer Based Model + Pretrained Custome Embedding + Data Augmentation](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_augmentation_custom_pretrained_embeddings)| 16 | 20| 0.003| 1.390 |
+[Trasnaformer Based Model + Pretrained Custome Embedding + Data Augmentation](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_augmentation_custom_pretrained_embeddings)| 16 | 20| 0.0003| 1.390 |
 
 ## Pretrained Custom Embedding layer
 
