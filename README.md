@@ -45,3 +45,13 @@ Trained a separate embedding layer for python keywords using glove so that model
 
 ## Streamlit App
 
+steps to run the stream lit app
+
+- nohup streamlit run app.py &
+
+from pyngrok import ngrok
+ngrok.set_auth_token(<<Set_token>>)
+url = ngrok.connect(port=8501)
+url
+
+
