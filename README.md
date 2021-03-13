@@ -28,10 +28,10 @@ Followed steps were followed to clean and preprocess the data
 
 ## Different Experiments and Architectures
 
-* [Baseline Model](https://github.com/chinmay-singh/Propaganda/blob/master)
-* [Transformer Based Model](https://github.com/chinmay-singh/Propaganda/blob/crf)
-* [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/chinmay-singh/Propaganda/tree/less)
-* [Trasnaformer Based Model + Pretrained Custome Embedding + Data Augmentation](https://github.com/chinmay-singh/Propaganda/tree/lexicon)
+* [Baseline Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/baseline_model)
+* [Transformer Based Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding)
+* [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_custom_pretrained_embeddings)
+* [Trasnaformer Based Model + Pretrained Custome Embedding + Data Augmentation](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_augmentation_custom_pretrained_embeddings)
 
 
 Experiment | Batch Size | Epoch | Learning Rate | Test Loss |
