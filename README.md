@@ -18,7 +18,7 @@ The training dataset contained around 4600+ examples of English text to python c
 Followed steps were followed to clean and preprocess the data
 *  Took the entire dataset and executed the code in python environment to fix any syntactical issues with the code like missing brackets, comma etc
 *  To fix the indentation and formating issue used [autopep8](https://pypi.org/project/autopep8/)
-for eg: to fix the indentation issue 
+    for eg: to fix the indentation issue 
     `autopep8 <<filename>> --select=E101,E121 (use  --in-place option to make the changes)`
 * Also, used [python_minifier](https://python-minifier.com/) to remove empty lines, annotations and comments.
 * Apart from this also had to fix few minor indentation or space issues manually as and when encountered with the failure
@@ -47,4 +47,6 @@ Trained a separate embedding layer for python keywords using glove so that model
 - Used CoNala dataset from [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github), to train the glove model.
 - Faced some problem using the glove model directly into Pytorch model, so had ro convert glove model to word2vec using glove2word2vec library available in gensim
 - Glove model is trained for 50 epochs and to generate embedding vectors of 256 dimension
+
+## Streamlit App
 
