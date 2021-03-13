@@ -1,4 +1,4 @@
-# [Transformer Based Model + Pretrained Custome Embedding + Data Augmentation](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_augmentation_custom_pretrained_embeddings)
+# [Transformer Based Model + Pretrained Custom Embedding + Data Augmentation](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_augmentation_custom_pretrained_embeddings)
 
 ## Pretrained Custom Embedding layer [(Notebook Link)](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_with_custom_pretrained_embeddings/training_glove_word2vec_embedding.ipynb)
 
