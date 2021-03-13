@@ -6,11 +6,12 @@
 Collected the data from github and other python sources in the a format such that the description of the code to be written (starts with #), follwed by the code it should generate, and following requirements were taken into consideration:
 - we mention whether the code needs to write a program or write a function
 - if the code needs to print something, then "print" is mentioned in the text
+
 Here are some examples:
-- provide the length of list, dict, tuple, etc
-- write a function to sort a list
-- write a function to test the time it takes to run a function
-- write a program to remove stop words from a sentence provided, etc
+  - provide the length of list, dict, tuple, etc
+  - write a function to sort a list
+  - write a function to test the time it takes to run a function
+  - write a program to remove stop words from a sentence provided, etc
 
 
 ## Data cleaning and preprocessing
