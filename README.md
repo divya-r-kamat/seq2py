@@ -1,7 +1,7 @@
 # seq2py 
   - A transformer based model to translate English text to Python code (with proper whitespace indentations)
 
-[![Watch the video](https://user-images.githubusercontent.com/42609155/111053965-85cd9f80-848e-11eb-9cb9-d0767c07d356.PNG)](https://user-images.githubusercontent.com/42609155/111053749-7baaa180-848c-11eb-97f2-77a361d60a71.mp4)
+![final_result](https://user-images.githubusercontent.com/42609155/111054068-68e59c00-848f-11eb-8fb4-24c8df41c36c.gif)
 
 
 ## Data Collection
