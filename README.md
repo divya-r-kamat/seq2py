@@ -57,7 +57,7 @@ Trained a separate embedding layer for python keywords using glove so that model
 The application was built using 
 - [Google Colab](https://colab.research.google.com/) 
 - [PyTorch](https://pytorch.org/) 
-- [Steamlit](https://streamlit.io/)
+- [Streamlit](https://streamlit.io/)
 
 ## Streamlit App
 
