@@ -42,7 +42,7 @@ Experiment | Batch Size | Epoch | Learning Rate | Test Loss |
 Baseline Model| 16 | 10 | 0.0005| 1.724 |
 Transformer Based Model| 28 |20 |0.0003 | 1.438 |
 Transformer Based Model + Pretrained Custom Embedding layer| 28 | 20 |0.0003 | 1.486|
-Trasnformer Based Model + Pretrained Custome Embedding + Data Augmentation| 16 | 20| 0.003| 1.390 |
+Trasnformer Based Model + Pretrained Custome Embedding + Data Augmentation| 28 | 20| 0.0003| 1.443 |
 
 ## Pretrained Custom Embedding layer
 
