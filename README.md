@@ -1,8 +1,7 @@
 # seq2py 
   - A transformer based model to translate English text to Python code (with proper whitespace indentations)
 
-
-<p align="center"><img src="https://user-images.githubusercontent.com/42609155/111054068-68e59c00-848f-11eb-8fb4-24c8df41c36c.gif" width="600"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/42609155/111054353-fde99480-8491-11eb-8192-cee1f38cf5e6.gif" width="600"></p>
 
 
 ## Data Collection
@@ -60,3 +59,5 @@ As a end product, two models are choosen [Transformer Based Model](https://githu
 Streamlit is an open source app framework specifically designed for ML engineers. It allows to create a stunning looking application with only a few lines of code.
 
 
+## References
+https://conala-corpus.github.io/#dataset-information
