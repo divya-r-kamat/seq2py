@@ -91,7 +91,7 @@ def load_model(model_path):
 # radio button 
 # first argument is the title of the radio button 
 # second argument is the options for the ratio button 
-status = st.radio("Select Model: ", ('Seperate Glove Embedding', 'Model Embedding'))
+status = st.radio("Select Model: ", ('Transformer Model - Custom Pretrained Embedding', 'Transformer Model - Embedding Layer'))
 
 sentence = st.text_input("Enter english text:")
 if(st.button("Generate code")): 
@@ -103,3 +103,4 @@ if(st.button("Generate code")):
           output_words[:] = [x for x in output_words if not (x == '<eos>' or x == '<pad>')]
           output_words.insert(0, '')
           st.code('Python Code Generated:\n' + ' '.join(output_words))
+          
