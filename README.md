@@ -5,7 +5,7 @@
 
 
 ## Data Collection
-Collected the data from github and other python sources in the a format such that the description of the code to be written (starts with #), follwed by the code it should generate, and following requirements were taken into consideration:
+Collected the data from github and other python sources from web in the a format such that the description of the code to be written (starts with #), follwed by the code it should generate, and following requirements were taken into consideration:
 - we mention whether the code needs to write a program or write a function
 - if the code needs to print something, then "print" is mentioned in the text
 Here are some examples:
@@ -58,6 +58,9 @@ Trained a separate embedding layer for python keywords using glove so that model
 As a end product, two models are choosen [Transformer Based Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding) and [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_custom_pretrained_embeddings).  These model are deployed using a Streamlit app, option is provided to choose one of these models to generate the python code.
 Streamlit is an open source app framework specifically designed for ML engineers. It allows to create a stunning looking application with only a few lines of code.
 
+## Future Work and Improvements
+
+The model is trained on limited dataset, we can further improve the model performance by adding more python examples from various web sources and by training the model with deeper architecture and for multiple epochs.
 
 ## References
 https://conala-corpus.github.io/#dataset-information
