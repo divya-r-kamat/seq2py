@@ -7,6 +7,15 @@ Trained a separate embedding layer for python keywords using glove so that model
 - Faced some problem using the glove model directly into Pytorch model, so had ro convert glove model to word2vec using glove2word2vec library available in gensim
 - Glove model is trained for 50 epochs and to generate embedding vectors of 256 dimension
 
+### Freezing and Unfreezing Embeddings
+The model is trained for 20 epochs. During the first 15 epochs we are going to freeze the weights (parameters) of our embedding layer. For the last 5 epochs we'll allow our embeddings to be trained.
+
+Why would we ever want to do this? Sometimes the pre-trained word embeddings we use will already be good enough and won't need to be fine-tuned with our model. If we keep the embeddings frozen then we don't have to calculate the gradients and update the weights for these parameters, giving us faster training times. This doesn't really apply for the model used here, but we're mainly covering it to show how it's done. Another reason is that if our model has a large amount of parameters it may make training difficult, so by freezing our pre-trained embeddings we reduce the amount of parameters needing to be learned.
+
+To freeze the embedding weights, we set model.embedding.weight.requires_grad to False. This will cause no gradients to be calculated for the weights in the embedding layer, and thus no parameters will be updated when optimizer.step() is called.
+
+Then, during training we check if FREEZE_FOR (which we set to 15) epochs have passed. If they have then we set model.embedding.weight.requires_grad to True, telling PyTorch that we should calculate gradients in the embedding layer and update them with our optimizer. [Refer](https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/C%20-%20Loading%2C%20Saving%20and%20Freezing%20Embeddings.ipynb)
+
 Model Architecture
 
     Seq2Seq(
