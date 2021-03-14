@@ -31,11 +31,7 @@ for eg: to fix the indentation issue
 
 ## Different Experiments and Architectures
 
-* [Baseline Model](https://github.com/chinmay-singh/Propaganda/blob/master)
-* [Transformer Based Model](https://github.com/chinmay-singh/Propaganda/blob/crf)
-* [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/chinmay-singh/Propaganda/tree/less)
-* [Trasnaformer Based Model + Pretrained Custome Embedding + Data Augmentation](https://github.com/chinmay-singh/Propaganda/tree/lexicon)
-
+The architecture used is Transformer based model, refer [this](https://dkamatblog.home.blog/2021/02/04/transformers-attention-is-all-you-need/) more details  
 
 Experiment | Batch Size | Epoch | Learning Rate | Test Loss |
 ---|---|---|---|---|
@@ -52,6 +48,10 @@ Trained a separate embedding layer for python keywords using glove so that model
 - Glove model is trained for 50 epochs and to generate embedding vectors of 256 dimension
 
 
+## Tools Used
+- The application was built using [Google Colab](https://colab.research.google.com/) 
+- [PyTorch](https://pytorch.org/) 
+- [Steamlit](https://streamlit.io/)
 
 ## Streamlit App
 
@@ -64,3 +64,4 @@ The model is trained on limited dataset, we can further improve the model perfor
 
 ## References
 https://conala-corpus.github.io/#dataset-information
+[Attention is all you need!](https://arxiv.org/abs/1706.03762v5)
