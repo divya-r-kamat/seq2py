@@ -49,7 +49,8 @@ Trained a separate embedding layer for python keywords using glove so that model
 
 
 ## Tools Used
-- The application was built using [Google Colab](https://colab.research.google.com/) 
+The application was built using 
+- [Google Colab](https://colab.research.google.com/) 
 - [PyTorch](https://pytorch.org/) 
 - [Steamlit](https://streamlit.io/)
 
@@ -63,5 +64,5 @@ Streamlit is an open source app framework specifically designed for ML engineers
 The model is trained on limited dataset, we can further improve the model performance by adding more python examples from various web sources and by training the model with deeper architecture and for multiple epochs.
 
 ## References
-https://conala-corpus.github.io/#dataset-information
-[Attention is all you need!](https://arxiv.org/abs/1706.03762v5)
+- https://conala-corpus.github.io/#dataset-information
+- [Attention is all you need!](https://arxiv.org/abs/1706.03762v5)
