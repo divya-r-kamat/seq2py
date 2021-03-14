@@ -1,17 +1,17 @@
 # seq2py 
   - A transformer based model to translate English text to Python code (with proper whitespace indentations)
 
+https://user-images.githubusercontent.com/42609155/111053749-7baaa180-848c-11eb-97f2-77a361d60a71.mp4
 
 ## Data Collection
 Collected the data from github and other python sources in the a format such that the description of the code to be written (starts with #), follwed by the code it should generate, and following requirements were taken into consideration:
 - we mention whether the code needs to write a program or write a function
 - if the code needs to print something, then "print" is mentioned in the text
-
 Here are some examples:
-  - provide the length of list, dict, tuple, etc
-  - write a function to sort a list
-  - write a function to test the time it takes to run a function
-  - write a program to remove stop words from a sentence provided, etc
+- provide the length of list, dict, tuple, etc
+- write a function to sort a list
+- write a function to test the time it takes to run a function
+- write a program to remove stop words from a sentence provided, etc
 
 
 ## Data cleaning and preprocessing
@@ -20,7 +20,7 @@ The training dataset contained around 4600+ examples of English text to python c
 Followed steps were followed to clean and preprocess the data
 *  Took the entire dataset and executed the code in python environment to fix any syntactical issues with the code like missing brackets, comma etc
 *  To fix the indentation and formating issue used [autopep8](https://pypi.org/project/autopep8/)
-    for eg: to fix the indentation issue 
+for eg: to fix the indentation issue 
     `autopep8 <<filename>> --select=E101,E121 (use  --in-place option to make the changes)`
 * Also, used [python_minifier](https://python-minifier.com/) to remove empty lines, annotations and comments.
 * Apart from this also had to fix few minor indentation or space issues manually as and when encountered with the failure
@@ -30,12 +30,18 @@ Followed steps were followed to clean and preprocess the data
 
 ## Different Experiments and Architectures
 
+* [Baseline Model](https://github.com/chinmay-singh/Propaganda/blob/master)
+* [Transformer Based Model](https://github.com/chinmay-singh/Propaganda/blob/crf)
+* [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/chinmay-singh/Propaganda/tree/less)
+* [Trasnaformer Based Model + Pretrained Custome Embedding + Data Augmentation](https://github.com/chinmay-singh/Propaganda/tree/lexicon)
+
+
 Experiment | Batch Size | Epoch | Learning Rate | Test Loss |
 ---|---|---|---|---|
-[Baseline Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/baseline_model)| 16 | 10 | 0.0005| 1.724 |
-[Transformer Based Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding)| 28 |20 |0.0003 | 1.438 |
-[Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_custom_pretrained_embeddings)| 28 | 20 |0.0003 | 1.486|
-[Trasnaformer Based Model + Pretrained Custome Embedding + Data Augmentation](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_augmentation_custom_pretrained_embeddings)| 28 | 20| 0.0003| 1.390 |
+Baseline Model| 16 | 10 | 0.0005| 1.724 |
+Transformer Based Model| 28 |20 |0.0003 | 1.438 |
+Transformer Based Model + Pretrained Custom Embedding layer| 28 | 20 |0.0003 | 1.486|
+Trasnformer Based Model + Pretrained Custome Embedding + Data Augmentation| 16 | 20| 0.003| 1.390 |
 
 ## Pretrained Custom Embedding layer
 
@@ -44,15 +50,11 @@ Trained a separate embedding layer for python keywords using glove so that model
 - Faced some problem using the glove model directly into Pytorch model, so had ro convert glove model to word2vec using glove2word2vec library available in gensim
 - Glove model is trained for 50 epochs and to generate embedding vectors of 256 dimension
 
+
+
 ## Streamlit App
 
-steps to run the stream lit app
-
-- nohup streamlit run app.py &
-
-from pyngrok import ngrok
-ngrok.set_auth_token(<<Set_token>>)
-url = ngrok.connect(port=8501)
-url
+As a end product, two models are choosen [Transformer Based Model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding) and [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_custom_pretrained_embeddings).  These model are deployed using a Streamlit app, option is provided to choose one of these models to generate the python code.
+Streamlit is an open source app framework specifically designed for ML engineers. It allows to create a stunning looking application with only a few lines of code.
 
 
