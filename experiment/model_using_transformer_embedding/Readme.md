@@ -1,4 +1,4 @@
-# [Transformer Based model](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding)
+# [Transformer Based model(Learned Embeddings)](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding)
 
 Model Architecture
 
