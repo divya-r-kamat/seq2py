@@ -1,8 +1,7 @@
 # seq2py 
   - A transformer based model to translate English text to Python code (with proper whitespace indentations)
 
-<p align="center"><img src="https://user-images.githubusercontent.com/42609155/111054353-fde99480-8491-11eb-8192-cee1f38cf5e6.gif" width="600"></p>
-
+<p align="center"><img src="https://user-images.githubusercontent.com/42609155/111890988-c0968100-8a14-11eb-8e25-c58636e5a209.gif" width="600"></p>
 
 ## Data Collection
 Collected the data from github and other python sources from web in the a format such that the description of the code to be written (starts with #), follwed by the code it should generate, and following requirements were taken into consideration:
@@ -71,3 +70,10 @@ The model is trained on limited dataset, we can further improve the model perfor
 ## References
 - https://conala-corpus.github.io/#dataset-information
 - [Attention is all you need!](https://arxiv.org/abs/1706.03762v5)
+
+
+
+
+
+<!--p align="center"><img src="https://user-images.githubusercontent.com/42609155/111054353-fde99480-8491-11eb-8192-cee1f38cf5e6.gif" width="600"></p>
+
