@@ -68,7 +68,7 @@ Streamlit is an open source app framework specifically designed for ML engineers
 The model is trained on limited dataset, we can further improve the model performance by adding more python examples from various web sources and by training the model with deeper architecture and for multiple epochs.
 
 ## References
-- https://conala-corpus.github.io/#dataset-information
+- [CoNaLa Corpus](https://conala-corpus.github.io/#dataset-information)
 - [Attention is all you need!](https://arxiv.org/abs/1706.03762v5)
 
 
