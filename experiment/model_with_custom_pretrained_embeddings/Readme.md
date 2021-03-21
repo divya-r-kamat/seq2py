@@ -1,6 +1,4 @@
-# [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_custom_pretrained_embeddings)
-
-[Link to Training Notebook](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_with_custom_pretrained_embeddings/Translate_English_text_to_python_training_Glove_model.ipynb)
+# [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_with_custom_pretrained_embeddings/Translate_English_text_to_python_training_Glove_model.ipynb)
 
 ## Pretrained Custom Embedding layer [(Notebook Link)](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_with_custom_pretrained_embeddings/training_glove_word2vec_embedding.ipynb)
 
