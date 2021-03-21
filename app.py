@@ -81,7 +81,7 @@ model = Seq2Seq(enc, dec, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
 @st.cache(suppress_st_warning=True,ttl=1000)
 def load_model(model_path):
     # Load model
-    if (status == 'Seperate Glove Embedding'): 
+    if (status == 'Transformer Model - Custom Pretrained Embedding'): 
         trained_model = os.path.join(model_path,"model/tut6-model_20210311_run4_glove_moredata.pt")
     else:
         trained_model = os.path.join(model_path,"model/tut6-model_20210311_run2.pt")
