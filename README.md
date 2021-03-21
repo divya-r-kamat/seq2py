@@ -47,7 +47,7 @@ The loss function used is Cross Entropy Loss, also tried using NLL but did not o
 ## Pretrained Custom Embedding layer
 
 Trained a separate embedding layer for python keywords using glove so that model understands and pays special attention to whitespaces, colon and other things (like comma etc)
-- Used CoNala dataset from [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github), to train the glove model.
+- Used CoNala dataset from [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github.io/), to train the glove model.
 - Faced some problem using the glove model directly into Pytorch model, so had ro convert glove model to word2vec using glove2word2vec library available in gensim
 - Glove model is trained for 50 epochs and to generate embedding vectors of 256 dimension
 
