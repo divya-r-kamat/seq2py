@@ -1,5 +1,7 @@
 # [Transformer Based model(Learned Embeddings)](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding)
 
+[Link to Notebook](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_using_transformer_embedding/Translate_English_text_to_python_training_1.ipynb)
+
 Model Architecture
 
     Seq2Seq(
@@ -244,3 +246,72 @@ Training Log
     Epoch: 20 | Time: 0m 15s
     	Train Loss: 0.780 | Train PPL:   2.182
     	 Val. Loss: 1.363 |  Val. PPL:   3.908
+
+Output
+
+    Enter the Description > write a program to add two numbers
+    Bot:
+      num1 = 1.5 
+      num2 = 6.3 
+      sum = num1 + num2 
+      print ( f'Sum: {sum}' ) 
+
+
+    Enter the Description > write a function to multiply two numbers
+    Bot:
+      def gcd ( num1 , num2 ) : 
+         return num1 * num2 
+
+
+    Enter the Description > write a function to find fibonacci number
+    Bot:
+      def fib ( n ) : 
+         if n == 1 : 
+             return 0 
+         elif n == 1 : 
+             return 1 
+         else : 
+             return Fibonacci ( n - 1 ) + Fibonacci ( n - 2 ) 
+
+
+    Enter the Description > write a program to replace a string
+    Bot:
+
+      str1 = 'CoffeeDay is best for coffee and having long conversations' 
+      word_list = [ 'a' , 'long' ] 
+      repl_word = 'good' 
+      print ( "The original string is : " + str ( test_str ) ) 
+
+
+    Enter the Description > write a program to find log of a number
+    Bot:
+      import math 
+      def square ( num ) : 
+         return math . exp ( x ) 
+
+
+    Enter the Description > write a function to find area of a circle
+    Bot:
+      def findArea ( r ) : 
+         PI = 3.142 
+         return ( r * ( r ) ) 
+
+
+    Enter the Description > write a program to reverse a list
+    Bot:
+      lst = [ 1 , 2 , 3 ] 
+      lst = [ 0 , 0 ] 
+      lst = lst [ 0 ] 
+      for i in lst : 
+         if ( lst [ i ] == lst ) : 
+             lst [ i ] = lst [ i ] 
+      print ( lst ) 
+
+
+    Enter the Description > write a fucntion to find cosine angle
+    Bot:
+
+      def calcAngle ( hh , mm ) : 
+         hour_angle = 0.5 * ( hh * 60 + mm ) 
+         angle = abs ( 360 - angle , angle ) 
+         return angle 
