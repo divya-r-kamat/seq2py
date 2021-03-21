@@ -1,4 +1,4 @@
-# [Transformer Based Model + Pretrained Custom Embedding + Data Augmentation](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_augmentation_custom_pretrained_embeddings)
+# [Transformer Based Model + Pretrained Custom Embedding + Data Augmentation](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_with_augmentation_custom_pretrained_embeddings/Translate_English_text_to_python_Glove_model_and_augmentation.ipynb)
 
 ## Pretrained Custom Embedding layer [(Notebook Link)](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_with_custom_pretrained_embeddings/training_glove_word2vec_embedding.ipynb)
 
@@ -258,4 +258,53 @@ Training Log
          Val. Loss: 1.246 |  Val. PPL:   3.477
     Epoch: 20 | Time: 0m 27s
         Train Loss: 0.431 | Train PPL:   1.539
-         Val. Loss: 1.238 |  Val. PPL:   3.450         
+         Val. Loss: 1.238 |  Val. PPL:   3.450   
+         
+Output
+
+
+    Enter the Description > write a program to add two numbers
+    Bot:
+      num1 = 1.5 
+      num2 = 6.3 
+      sum = num1 + num2 
+      print ( f'Sum: {sum}' ) 
+
+
+    Enter the Description > write a program to reverse a list
+    Bot:
+      lst = [ 11 , 33 , 44 , 55 , 66 , 88 , 99 ] 
+      print ( "Smallest element is:" , min ( lst ) ) 
+
+
+    Enter the Description > write a function to find fibonacci number
+    Bot:
+      def fiboacci_number_check ( n ) : 
+         if ( isinstance ( n , int ) ) : 
+             result = list ( filter ( lambda a : int ( a * b * b * a * b * b ) ) == 0 ) 
+             return bool ( b ) 
+         else : 
+             return bool ( b ) 
+
+
+    Enter the Description > write a function to multiply two numbers
+    Bot:
+      def mul_two_numbers ( num1 , num2 ) : 
+         mul = num1 * num2 
+         return mul 
+
+
+    Enter the Description > write a fucntion to find sin angle
+    Bot:
+
+      def calcAngle ( hh , mm ) : 
+         hour_angle = 0.5 * ( hh * mm ) 
+         angle = abs ( hour_angle - angle ) 
+         return angle 
+
+
+    Enter the Description > write a function to find area of a circle
+    Bot:
+      def findArea ( r ) : 
+         PI = 3.142 
+         return PI * ( r ) 
