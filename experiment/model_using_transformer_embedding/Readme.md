@@ -1,6 +1,6 @@
 # [Transformer Based model(Learned Embeddings)](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_using_transformer_embedding)
 
-[Link to Notebook](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_using_transformer_embedding/Translate_English_text_to_python_training_1.ipynb)
+[Link to Training Notebook](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_using_transformer_embedding/Translate_English_text_to_python_training_1.ipynb)
 
 Model Architecture
 
