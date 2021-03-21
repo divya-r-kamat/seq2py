@@ -1,5 +1,7 @@
 # [Transformer Based Model + Pretrained Custom Embedding layer](https://github.com/divya-r-kamat/seq2py/tree/main/experiment/model_with_custom_pretrained_embeddings)
 
+[Link to Training Notebook](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_with_custom_pretrained_embeddings/Translate_English_text_to_python_training_Glove_model.ipynb)
+
 ## Pretrained Custom Embedding layer [(Notebook Link)](https://github.com/divya-r-kamat/seq2py/blob/main/experiment/model_with_custom_pretrained_embeddings/training_glove_word2vec_embedding.ipynb)
 
 Trained a separate embedding layer for python keywords using glove so that model understands and pays special attention to whitespaces, colon and other things (like comma etc)
@@ -262,3 +264,67 @@ Training Log
     Epoch: 20 | Time: 0m 11s
     	Train Loss: 0.881 | Train PPL:   2.412
     	 Val. Loss: 1.429 |  Val. PPL:   4.176
+
+Output 
+
+
+
+Enter the Description > write a program to add two numbers
+Bot:
+  num1 = 1.5 
+  num2 = 6.3 
+  sum = num1 + num2 
+  print ( f'Sum: {sum}' ) 
+
+
+Enter the Description > write a function to multiply two numbers
+Bot:
+  def add_two_numbers ( num1 , num2 ) : 
+ 	 sum = num1 * num2 
+ 	 return sum 
+
+
+Enter the Description > write a function to find fibonacci number
+Bot:
+  def fib ( n ) : 
+ 	 if n == 1 : 
+ 		 return n 
+ 	 else : 
+ 		 return n + recur_fibo ( n - 1 ) 
+
+
+Enter the Description > write a program to replace a string
+Bot:
+  str1 = "Hello! It is a Good thing" 
+  substr2 = "bad" 
+  res = str1 . replace ( substr1 , substr2 ) 
+  print ( "String after replace :" + str ( res ) ) 
+
+
+Enter the Description > write a program to find log of a number
+Bot:
+  num = 10 
+  print ( 'The square root of %0.3f is %0.3f' % ( num , num_sqrt ) ) 
+
+
+Enter the Description > write a function to find area of a circle
+Bot:
+  def findArea ( r ) : 
+ 	 PI = 3.142 
+ 	 return PI * r * r 
+
+
+Enter the Description > write a program to reverse a list
+Bot:
+  lst = [ 1 , 2 , 3 ] 
+  print ( lst [ : : - 1 ] ) 
+
+
+Enter the Description > write a fucntion to find cosine angle
+Bot:
+  
+  def calcAngle ( hh , mm ) : 
+ 	 hour_angle = ( hh * 60 + mm ) 
+ 	 angle = abs ( hour_angle - minute_angle ) 
+ 	 angle = abs ( angle ) 
+ 	 return angle 
