@@ -31,7 +31,7 @@ for eg: to fix the indentation issue
 
 ## Different Experiments and Architectures
 
-The architecture used is Transformer based model, refer [this](https://dkamatblog.home.blog/2021/02/04/transformers-attention-is-all-you-need/) more details  
+The architecture used is Transformer based model, check [this blog](https://dkamatblog.home.blog/2021/02/04/transformers-attention-is-all-you-need/) for more details on transformer architecture.
 
 Experiment | Batch Size | Epoch | Learning Rate | Test Loss |
 ---|---|---|---|---|
